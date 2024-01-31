@@ -1,0 +1,12 @@
+meme_dict = {
+            "GEE": "w skrucie git czyli dobrze",
+            "LOL": "Częsta reakcja na coś zabawnego",
+            "CREEPY": "straszny, złowieszczy"
+            }
+            
+word = input("Wpisz słowo, którego nie rozumiesz (używaj wielkich liter!): ")
+
+if word in meme_dict.keys():
+    print(meme_dict[word])
+else:
+    print("Niestety niema tego słowa w programie")
